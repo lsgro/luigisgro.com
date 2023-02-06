@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 301 150" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(1,0,0,1,-4240,-200)">
+        <g transform="matrix(0.979374,0,0,0.979374,2255.89,0)">
+            <rect id="Logo" x="1978.93" y="0" width="408.424" height="408.424" style="fill:none;"/>
+            <g id="Logo1" serif:id="Logo">
+                <g transform="matrix(1.02106,0,0,1.02106,-44.4359,17.4888)">
+                    <path d="M2328,189.828C2328,185.989 2324.88,182.872 2321.04,182.872L2034.96,182.872C2031.12,182.872 2028,185.989 2028,189.828L2028,325.893C2028,329.732 2031.12,332.849 2034.96,332.849L2321.04,332.849C2324.88,332.849 2328,329.732 2328,325.893L2328,189.828Z" style="fill:none;"/>
+                    <clipPath id="_clip1">
+                        <path d="M2328,189.828C2328,185.989 2324.88,182.872 2321.04,182.872L2034.96,182.872C2031.12,182.872 2028,185.989 2028,189.828L2028,325.893C2028,329.732 2031.12,332.849 2034.96,332.849L2321.04,332.849C2324.88,332.849 2328,329.732 2328,325.893L2328,189.828Z"/>
+                    </clipPath>
+                    <g clip-path="url(#_clip1)">
+                        <g transform="matrix(0.979374,0,0,0.979374,67.8663,164.087)">
+                            <g transform="matrix(1.03949,0,0,1.48581,-102.46,-55.9191)">
+                                <rect x="2023.96" y="48.85" width="147.341" height="51.541" style="fill:rgb(239,193,26);"/>
+                            </g>
+                            <g transform="matrix(2.07897,0,0,1.48581,-2206.34,25.7658)">
+                                <rect x="2023.96" y="48.85" width="147.341" height="51.541" style="fill:url(#_Linear2);"/>
+                            </g>
+                            <g transform="matrix(1.03949,0,0,1.48581,55.7722,-55.9191)">
+                                <rect x="2023.96" y="48.85" width="147.341" height="51.541" style="fill:rgb(8,72,135);"/>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g transform="matrix(1.03083,0,0,1.02952,-62.11,0.0168274)">
+                    <rect x="1989.91" y="9.901" width="376.4" height="376.876" style="fill:none;stroke:rgb(47,37,0);stroke-width:4.96px;"/>
+                </g>
+                <g transform="matrix(1.02106,0,0,1.02106,-42.7112,18.3135)">
+                    <g transform="matrix(41.6667,0,0,41.6667,2216.66,161.914)">
+                    </g>
+                    <text x="2026.31px" y="161.914px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:41.667px;">a<tspan x="2051.57px 2069.87px 2095.12px 2122.66px 2136.32px 2152.28px 2177.53px 2202.79px " y="161.914px 161.914px 161.914px 161.914px 161.914px 161.914px 161.914px 161.914px ">rchitect</tspan></text>
+                </g>
+            </g>
+        </g>
+    </g>
+    <defs>
+        <linearGradient id="_Linear2" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(147.341,-0.161065,0.11511,206.163,2023.96,71.4544)"><stop offset="0" style="stop-color:rgb(32,31,30);stop-opacity:1"/><stop offset="0.43" style="stop-color:rgb(143,143,143);stop-opacity:1"/><stop offset="1" style="stop-color:rgb(171,171,171);stop-opacity:1"/></linearGradient>
+    </defs>
+</svg>
