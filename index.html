@@ -8,122 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
-    <style type="text/css">
-        body {
-            background-color: #E5E4DD;
-            color: #2F2500;
-            margin: 0;
-            padding: 0;
-            font-family: Roboto, Arial, sans-serif;
-        }
-        a:link, a:visited {
-            color: #38488f;
-            text-decoration: none;
-        }
-        .color-blue {
-            color: #084887;
-        }
-        .color-dark-grey {
-            color: #716A5C;
-        }
-        .color-yellow {
-            color: #EFC11A;
-        }
-        .color-dark {
-            color: #2F2500;
-        }
-        .color-background-bright {
-            color: #D7D5C8;
-        }
-        .color-background-brightest {
-            color: #E5E4DD;
-        }
-        .content-width {
-            max-width: 1170px;
-            margin: auto;
-        }
-        .article-width {
-            box-sizing: border-box;
-            max-width: 1170px;
-            margin: auto;
-            padding: 0 100px;
-        }
-        header {
-            box-sizing: border-box;
-            height: 180px;
-            padding: 52px 0;
-            display: flex;
-        }
-        #header-logo {
-            display: flex;
-            flex-grow: 5;
-            flex: 0 0 41%;
-            margin: 0 auto 0 0;
-        }
-        #header-container {
-            display: flex;
-            flex-direction: column;
-            flex: 0 0 59%;
-            justify-content: space-between;
-        }
-        h1 {
-            font-size: 28px;
-            letter-spacing: 0.08em;
-            font-weight: 500;
-            margin: 0;
-            display: inline;
-        }
-        .header-row {
-            width: 100%;
-            display: flex;
-            justify-content: space-between;
-        }
-        nav.header-row {
-            font-size: 26px;
-            letter-spacing: 0.08em;
-            font-weight: normal;
-        }
-        #hero-filler-1 {
-            height: 50px;
-            background-image: linear-gradient(to top, #E5E4DD, #D7D5C8);
-        }
-        #hero-filler-2 {
-            height: 50px;
-            background-image: linear-gradient(to bottom, #E5E4DD, #D7D5C8);
-        }
-        article {
-            background-image: linear-gradient(to bottom, #E5E4DD, #E5E4DD, #E5E4DD, #D7D5C8);
-            padding: 50px 0;
-        }
-        .feature-num {
-            display: inline-block;
-            font-family: "Playfail Display";
-            font-weight: 600;
-            font-size: 70px;
-            color: #084887;
-            margin: 0 40px 0 -70px;
-        }
-        h2 {
-            display: inline-block;
-            font-family: "Playfail Display";
-            font-weight: 500;
-            font-size: 40pt;
-            letter-spacing: 0.05em;
-            color: #716A5C;
-            margin: 0 0 50px 0;
-        }
-        footer {
-            color: #E5E4DD;
-            background-color: #716A5C;
-        }
-        #footer-content {
-            width: 100%;
-            height: 120px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-    </style>
+    <link rel="stylesheet" href="main.css"/>
 </head>
 <body>
     <header class="content-width">
@@ -136,12 +21,12 @@
                 <h1>software architect</h1>
             </div>
             <nav class="header-row">
-                <a>vision</a>
-                <a>tech</a>
-                <a>projects</a>
-                <a>bio</a>
-                <a>offer</a>
-                <a>contacts</a>
+                <a href="#vision">vision</a>
+                <a href="#tech">tech</a>
+                <a href="#projects">projects</a>
+                <a href="#bio">bio</a>
+                <a href="#offer">offer</a>
+                <a href="#contacts">contacts</a>
             </nav>
         </div>
     </header>
@@ -151,57 +36,147 @@
         <div id="hero-filler-2"></div>
     </section>
     <section id="features">
-        <article>
+        <article id="vision">
             <div class="article-width">
                 <div class="feature-num">1</div>
-                <h2>vision</h2>
+                <h2>Value proposition</h2>
                 <div>
-Nullam at leo nec metus aliquam semper. Phasellus tincidunt, ante nec lacinia ultrices, quam mi dictum libero, vitae bibendum turpis elit ut lectus. Sed diam ante, lobortis sed, dignissim sit amet, condimentum in, sapien. Pellentesque nec lectus non risus auctor lobortis. Vestibulum sit amet dolor a ante suscipit pulvinar. Sed lacinia. Aliquam erat volutpat. In hac habitasse platea dictumst. Vivamus sit amet sem vitae tellus ultricies consequat. Integer tincidunt tellus eget justo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos.Morbi pellentesque, mauris interdum porta tincidunt, neque orci molestie mauris, vitae iaculis dolor felis at nunc. Maecenas eu diam a leo porta interdum. In non massa quis odio feugiat sagittis. Quisque ac lorem. Maecenas ut sem sed ipsum suscipit malesuada. Nulla quis dui 
+                    <p>Developing a software application means building new ways for humans to interact productively with a computer.</p>
+                    <p>Like a specialised language, an application enables two-ways communication with a counterparty — the computing machine — for a specific goal.</p>
+                    <p>When the machine is driven by the user to perform a task, it relays back some notion of its inner workings.</p>
+                    <p>The fidelity of this feedback loop is essential to the quality of user experience: as with any sophisticated instrument, by using a computer 
+                        we iteratively learn what it enables us to do, and we adjust, in response to that, the realm of our creative possibilities.</p>
+                    <p>Arbitrary limitations, poor performance, lack of self-consistency, rather than being simply annoying traits of software applications,
+                        which make our work more difficult than it needs to be, are in fact hampering our ability to reason in innovative ways: like an out-of-tune piano,
+                        a poorly developed application affects creativity at its source, impeding an ideal user performance with its own idiosyncrasies and impossibilities.</p>
+                    <p>Developing applications in a way that enables an empowering level of interaction is only possible by carefully and professionally mediating
+                        between the client's applicative domain and a properly selected stack of technologies.</p>
+                    <p>Minimum viable products, early and frequent releases are vital practices for success, but they must be accompanied by a speculative activity,
+                        continuously challenging the current domain model, ready to revise and rework architecture and code when hypotheses are falsified.</p>
+                    <p>Technical skills must not be a barrier to erect as a protection from the world, but the means for a developer to display and let
+                        others experiment with a novel view of the world: a living thing that is destined to be tested, criticised, recast, amended, redone, improved perpetually,
+                        precisely because there is value in it.</p>
                 </div>
             </div>
         </article>
-        <article>
+        <article id="tech">
             <div class="article-width">
                 <div class="feature-num">2</div>
-                <h2>tech</h2>
+                <h2>Proposed tech stack</h2>
                 <div>
-Nullam at leo nec metus aliquam semper. Phasellus tincidunt, ante nec lacinia ultrices, quam mi dictum libero, vitae bibendum turpis elit ut lectus. Sed diam ante, lobortis sed, dignissim sit amet, condimentum in, sapien. Pellentesque nec lectus non risus auctor lobortis. Vestibulum sit amet dolor a ante suscipit pulvinar. Sed lacinia. Aliquam erat volutpat. In hac habitasse platea dictumst. Vivamus sit amet sem vitae tellus ultricies consequat. Integer tincidunt tellus eget justo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos.Morbi pellentesque, mauris interdum porta tincidunt, neque orci molestie mauris, vitae iaculis dolor felis at nunc. Maecenas eu diam a leo porta interdum. In non massa quis odio feugiat sagittis. Quisque ac lorem. Maecenas ut sem sed ipsum suscipit malesuada. Nulla quis dui 
+                    <h3>Data analysis and scientific computing, quantitative finance</h3>
+                    <p>Python 3 + numpy, pandas, scikit-learn, pytorch, jupyter, streamlit</p>
+                    <h3>High throughput</h3>
+                    <p>Scala, Java 8+, AWS, Google Cloud, Spark</p>
+                    <h3>Low latency</h3>
+                    <p>Rust on metal, Rust on WASM</p>
+                    <h3>Browser</h3>
+                    <p>Javascript/Typescript, React, Svelte</p>
                 </div>
             </div>
         </article>
-        <article>
+        <article id="projects">
             <div class="article-width">
                 <div class="feature-num">3</div>
-                <h2>projects</h2>
+                <h2>Past projects</h2>
                 <div>
-Nullam at leo nec metus aliquam semper. Phasellus tincidunt, ante nec lacinia ultrices, quam mi dictum libero, vitae bibendum turpis elit ut lectus. Sed diam ante, lobortis sed, dignissim sit amet, condimentum in, sapien. Pellentesque nec lectus non risus auctor lobortis. Vestibulum sit amet dolor a ante suscipit pulvinar. Sed lacinia. Aliquam erat volutpat. In hac habitasse platea dictumst. Vivamus sit amet sem vitae tellus ultricies consequat. Integer tincidunt tellus eget justo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos.Morbi pellentesque, mauris interdum porta tincidunt, neque orci molestie mauris, vitae iaculis dolor felis at nunc. Maecenas eu diam a leo porta interdum. In non massa quis odio feugiat sagittis. Quisque ac lorem. Maecenas ut sem sed ipsum suscipit malesuada. Nulla quis dui 
+                    <h3>Risk analytics for equity trading</h3>
+                    <p>Working as a freelance for a small team of portfolio managers at a leading hedge fund, I have developed a custom risk analytics system.</p>
+                    <p>To speed-up the development and enable the PM team to maintain the application by themselves, I chose to write it in Python, leveraging Pandas and other scientific libraries.
+                        The application, deployed on Docker containers on company hardware, was available both as a dependency in a centralised Jupyter setup, and as a set of REST API,
+                        which have been integrated in the company trader workbench by another developer.</p>
+                    <p>After being successfully used by the original team, the application was selected to be distributed to all equity trading portfolio managers in the hedge fund.
+                        I contributed to this effort in another assignment by adding support for more financial instruments and integrating an additional pricing library.</p>
+                    <p>Tech stack: Python, Pandas, Jupyter, Docker, Postgres, REST, Bloomberg API</p>
+                    <h3>Risk and pricing application for volatility trading</h3>
+                    <p>Working for a medium-size equity hedge fund, I was responsible for the development of a new application for risk analytics.</p>
+                    <p>I wrote the backend of the application in Scala, leveraging AWS Lambda to distribute the pricing tasks. The almost real time performance achieved in evaluating the whole portfolio,
+                        which included hundreds of derivatives, gave the traders a trusted and convenient way to monitor their risk. Furthermore, the clean architecture of the application,
+                        facilitated by the choice of the language, made it possible to refine the pricing models and add new instruments quickly when needed.</p>
+                    <p>Tech stack: Scala, AWS Lambda, Redis, Microsoft SQL, REST, Bloomberg API</p>
+                    <h3>Open-source framework for algo-trading</h3>
+                    <p>During an interim period dedicated to experimenting first-hand with equity trading and quantitative market analysis, I have developed a trading application written in Java as an Eclipse IDE plugin.</p>
+                    <p>The application, which included charting, a rudimentary backtesting engine, market data feeds, paper and live trading capability with a broker, was released as open source:
+                        <a href="https://github.com/lsgro/quantcomponents">https://github.com/lsgro/quantcomponents</a></p>
+                    <p>Tech stack: Java, Eclipse IDE, SWT</p>
+                    <h3>Order management system for flow bond trading</h3>
+                    <p>While employed by a software vendor specialised in trading applications for banks, I was responsible for re-engineering an order management application written in Java.</p>
+                    <p>The new architecture I envisioned was based on a modular setup, implemented with Spring container, and was able to process multiple orders concurrently,
+                        using thread executors and concurrent queues for the various states of the order.</p>
+                    <p>Tech stack: Java, Spring, Bloomberg API, Reuters API, FIX</p>
+                    <h3>Web application for cruise booking</h3>
+                    <p>Working for a medium-size cruise operator, I was given the job of building a B2B web application using the existing terminal-based booking system as backend.</p>
+                    <p>As the leader of a team of two, I developed an adapter exposing an API to access the terminal-based backend using a screen-scraping technique written in Perl.</p>
+                    <p>Tech stack: PHP, Perl</p>
                 </div>
             </div>
         </article>
-        <article>
+        <article id="bio">
             <div class="article-width">
                 <div class="feature-num">4</div>
-                <h2>bio</h2>
+                <h2>My (tech) story</h2>
                 <div>
-Nullam at leo nec metus aliquam semper. Phasellus tincidunt, ante nec lacinia ultrices, quam mi dictum libero, vitae bibendum turpis elit ut lectus. Sed diam ante, lobortis sed, dignissim sit amet, condimentum in, sapien. Pellentesque nec lectus non risus auctor lobortis. Vestibulum sit amet dolor a ante suscipit pulvinar. Sed lacinia. Aliquam erat volutpat. In hac habitasse platea dictumst. Vivamus sit amet sem vitae tellus ultricies consequat. Integer tincidunt tellus eget justo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos.Morbi pellentesque, mauris interdum porta tincidunt, neque orci molestie mauris, vitae iaculis dolor felis at nunc. Maecenas eu diam a leo porta interdum. In non massa quis odio feugiat sagittis. Quisque ac lorem. Maecenas ut sem sed ipsum suscipit malesuada. Nulla quis dui 
+                    <h3>Early 80s: Genoa, Italy</h3>
+                    <p>Being part of the first generation of teen-agers with access to a personal computer, I took my first steps in geekiness tinkering with an 8-bit CPU,
+                        16KB of RAM and an arcane set of machine code instructions, to be encoded to integers on paper.</p>
+                    <h3>1996: Linux, the Internet</h3>
+                    <p>When, during my university studies, the World Wide Web became accessible to everyone with a modem,
+                        and the first usable versions of Linux became available to download on floppy disks, I committed to figuring out how all of this worked.
+                        The technology stack I was using at the time was still small enough to fit in the head of a motivated student of electronic engineering:
+                        x86 CPU, C language, Andy Tanenbaum's books, the Linux kernel source code, the UNIX shell, TCP/IP, HTTP, CGI and the early versions of Javascript.
+                        I have spent innumerable hours in study rooms, libraries, at home tinkering with my 80386 PC, perusing source code and experimenting with compilers and disassemblers.</p>
+                    <p>Meanwhile I had landed my first full time job as a C/SQL programmer on UNIX./p>
+                    <h3>2000s: my career as a software developer</h3>
+                    <p>Over the years I have managed to keep my priorities clear: avoiding as much as possible company politics, and rather concentrating on the craft of creating software and
+                        continuing to learn: keeping up-to-date with new technologies, liaise with local experts, mentoring junior developers, meeting with users, designing applications,
+                        reading and writing lots of code, fixing lots of bugs.</p>
+                    <h3>2010: London, UK</h3>
+                    <p>The same priorities, and an interest in quantitative finance, took me to the City of London, where investment banks were boosting the ranks of developers after the 2008 season of downsizing,
+                        and where, while working as a Java developer in Canary Wharf during the day, I was able to attend Paul Wilmott's lessons in Moorgate in the evenings and
+                        eventually achieve a Certificate in Quantitative Finance.</p>
+                    <h3>2013: Zurich, Switzerland</h3>
+                    <p>Trying to put my newly acquired skills to work, and looking to move to Switzerland, I got a new job in Zurich.</p>
+                    <p>The renaissance of functional programming in the industry was in full spin, thanks to Scala, Clojure and F#. In my new job, thanks to the amazing talents I was working with,
+                        I became proficient with functional Scala, experiencing first hand how an improvement in technology can make you so much more productive and happier.</p>
+                    <h3>2016: Zug, Switzerland</h3>
+                    <p>Working as a quantitative developer in two hedge funds, I had the opportunity to consolidate my skills in scientific computing,
+                        collaborating with quants and traders, using Python and its ecosystem for financial applications.</p>
+                    <h3>2023: Lugano, Switzerland</h3>
+                    <p>After several fulfilling years and two successful green-field projects I realised that, to stay true to my priorities — continuing to learn and being creative —
+                        I should take some time off, away from all the necessary schedules and routine activities of company work; digress for a while into interesting topics
+                        (machine learning, systematic trading, Rust); try to do my part in making things more intelligible and functional, with code and words.</p>
                 </div>
             </div>
         </article>
-        <article>
+        <article id="offer">
             <div class="article-width">
                 <div class="feature-num">5</div>
-                <h2>offer</h2>
+                <h2>What I can do for you</h2>
                 <div>
-Nullam at leo nec metus aliquam semper. Phasellus tincidunt, ante nec lacinia ultrices, quam mi dictum libero, vitae bibendum turpis elit ut lectus. Sed diam ante, lobortis sed, dignissim sit amet, condimentum in, sapien. Pellentesque nec lectus non risus auctor lobortis. Vestibulum sit amet dolor a ante suscipit pulvinar. Sed lacinia. Aliquam erat volutpat. In hac habitasse platea dictumst. Vivamus sit amet sem vitae tellus ultricies consequat. Integer tincidunt tellus eget justo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos.Morbi pellentesque, mauris interdum porta tincidunt, neque orci molestie mauris, vitae iaculis dolor felis at nunc. Maecenas eu diam a leo porta interdum. In non massa quis odio feugiat sagittis. Quisque ac lorem. Maecenas ut sem sed ipsum suscipit malesuada. Nulla quis dui 
+                    <ul>
+                        <li>Consultancy and software architecture design.</li>
+                        <li>Startup co-founder/head of software engineering.</li>
+                        <li>Custom application development and integration in the fields:
+                            <ul>
+                                <li>risk analytics</li>
+                                <li>equity derivative pricing</li>
+                                <li>trading strategies</li>
+                                <li>market data.</li>
+                            </ul>
+                        </li>
+                        <li>Interested in any innovative software project with room for autonomy and independent decision making.</li>
+                    </ul>
                 </div>
             </div>
         </article>
-        <article>
+        <article id="contacts">
             <div class="article-width">
                 <div class="feature-num">6</div>
-                <h2>contacts</h2>
+                <h2>How to reach me</h2>
                 <div>
-Nullam at leo nec metus aliquam semper. Phasellus tincidunt, ante nec lacinia ultrices, quam mi dictum libero, vitae bibendum turpis elit ut lectus. Sed diam ante, lobortis sed, dignissim sit amet, condimentum in, sapien. Pellentesque nec lectus non risus auctor lobortis. Vestibulum sit amet dolor a ante suscipit pulvinar. Sed lacinia. Aliquam erat volutpat. In hac habitasse platea dictumst. Vivamus sit amet sem vitae tellus ultricies consequat. Integer tincidunt tellus eget justo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos.Morbi pellentesque, mauris interdum porta tincidunt, neque orci molestie mauris, vitae iaculis dolor felis at nunc. Maecenas eu diam a leo porta interdum. In non massa quis odio feugiat sagittis. Quisque ac lorem. Maecenas ut sem sed ipsum suscipit malesuada. Nulla quis dui 
+                    <p>Email: <a href="info@luigisgro.com">info@luigisgro.com</a></p>
+                    <p>Telegram: <a href="https://t.me/lsgro">@lsgro</a></p>
+                    <p>In person: we can meet at my office in Lugano, or at any location in Europe</p>
                 </div>
             </div>
         </article>
@@ -210,16 +185,16 @@ Nullam at leo nec metus aliquam semper. Phasellus tincidunt, ante nec lacinia ul
         <div id="footer-content" class="content-width">
             <img src="images/Logo vector.svg" width="100px" height="50px">
             <nav id="footer-menu">
-                <a>credits</a>
+                <a href="credits.html">credits</a>
                 &nbsp;
                 &nbsp;
                 &nbsp;
-                <a>privacy policy</a>
+                <a href="privacy.html">privacy policy</a>
             </nav>
             <nav id="footer-links">
-                <img src="images/LinkedIn logo vector.svg" width="40px">
+                <a href="https://www.linkedin.com/in/luigisgro/"><img src="images/LinkedIn logo vector.svg" width="40px"></a>
                 &nbsp;
-                <img src="images/Octicons-mark-github.svg" width="40px">
+                <a href="https://github.com/lsgro"><img src="images/Octicons-mark-github.svg" width="40px"></a>
             </nav>
         </div>
     </footer>
