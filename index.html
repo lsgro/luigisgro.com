@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,300&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="main.css"/>
 </head>
 <body>
@@ -77,34 +77,18 @@
             <div class="content-width feature">
                 <h2>projects</h2>
                 <div class="article-width">
-                    <h3>Risk analytics for equity trading</h3>
-                    <p>Working as a freelance for a small team of portfolio managers at a leading hedge fund, I have developed a custom risk analytics system.</p>
-                    <p>To speed-up the development and enable the PM team to maintain the application by themselves, I chose to write it in Python, leveraging Pandas and other scientific libraries.
-                        The application, deployed on Docker containers on company hardware, was available both as a dependency in a centralised Jupyter setup, and as a set of REST API,
-                        which have been integrated in the company trader workbench by another developer.</p>
-                    <p>After being successfully used by the original team, the application was selected to be distributed to all equity trading portfolio managers in the hedge fund.
-                        I contributed to this effort in another assignment by adding support for more financial instruments and integrating an additional pricing library.</p>
-                    <p class="detail">Tech stack: Python, Pandas, Jupyter, Docker, Postgres, REST, Bloomberg API</p>
-                    <h3>Risk and pricing application for volatility trading</h3>
-                    <p>Working for a medium-size equity hedge fund, I was responsible for the development of a new application for risk analytics.</p>
-                    <p>I wrote the backend of the application in Scala, leveraging AWS Lambda to distribute the pricing tasks. The almost real time performance achieved in evaluating the whole portfolio,
-                        which included hundreds of derivatives, gave the traders a trusted and convenient way to monitor their risk. Furthermore, the clean architecture of the application,
-                        facilitated by the choice of the language, made it possible to refine the pricing models and add new instruments quickly when needed.</p>
-                    <p class="detail">Tech stack: Scala, AWS Lambda, Redis, Microsoft SQL, REST, Bloomberg API</p>
-                    <h3>Open-source framework for algo-trading</h3>
-                    <p>During an interim period dedicated to experimenting first-hand with equity trading and quantitative market analysis, I have developed a trading application written in Java as an Eclipse IDE plugin.</p>
-                    <p>The application, which included charting, a rudimentary backtesting engine, market data feeds, paper and live trading capability with a broker, was released as open source:
-                        <a href="https://github.com/lsgro/quantcomponents">https://github.com/lsgro/quantcomponents</a></p>
-                    <p class="detail">Tech stack: Java, Eclipse IDE, SWT</p>
-                    <h3>Order management system for flow bond trading</h3>
-                    <p>While employed by a software vendor specialised in trading applications for banks, I was responsible for re-engineering an order management application written in Java.</p>
-                    <p>The new architecture I envisioned was based on a modular setup, implemented with Spring container, and was able to process multiple orders concurrently,
-                        using thread executors and concurrent queues for the various states of the order.</p>
-                    <p class="detail">Tech stack: Java, Spring, Bloomberg API, Reuters API, FIX</p>
-                    <h3>Web application for cruise booking</h3>
-                    <p>Working for a medium-size cruise operator, I was given the job of building a B2B web application using the existing terminal-based booking system as backend.</p>
-                    <p>As the leader of a team of two, I developed an adapter exposing an API to access the terminal-based backend using a screen-scraping technique written in Perl.</p>
-                    <p class="detail">Tech stack: PHP, Perl</p>
+                    <ul>
+                        <h3>Risk analytics for equity trading</h3>
+                        <p>Python, Pandas, Jupyter, Docker, Postgres, REST, Bloomberg API</p>
+                        <h3>Risk and pricing application for volatility trading</h3>
+                        <p>Scala, AWS Lambda, Redis, Microsoft SQL, REST, Bloomberg API</p>
+                        <h3>Open-source framework for algo-trading</h3>
+                        <p>Java, Eclipse IDE, SWT</p>
+                        <h3>Order management system for flow bond trading</h3>
+                        <p>Java, Spring, Bloomberg API, Reuters API, FIX</p>
+                        <h3>Web application for cruise booking</h3>
+                        <p>PHP, Perl</p>
+                    </ul>
                 </div>
             </div>
         </article>
@@ -149,17 +133,17 @@
                 <h2>offer</h2>
                 <div class="article-width">
                     <ul>
-                        <li class="offer-category">Consultancy and software architecture design.</li>
-                        <li class="offer-category">Startup co-founder/head of software engineering.</li>
-                        <li class="offer-category">Custom application development and integration in the fields:
+                        <li class="top-level">Consultancy and software architecture design.</li>
+                        <li class="top-level">Startup co-founder/head of software engineering.</li>
+                        <li class="top-level">Custom application development and integration in the fields:
                             <ul>
-                                <li class="detail">risk analytics</li>
-                                <li class="detail">equity derivative pricing</li>
-                                <li class="detail">trading strategies</li>
-                                <li class="detail">market data</li>
+                                <li>risk analytics</li>
+                                <li>equity derivative pricing</li>
+                                <li>trading strategies</li>
+                                <li>market data</li>
                             </ul>
                         </li>
-                        <li class="offer-category">Interested in any innovative software project with room for autonomy and independent decision making.</li>
+                        <li class="top-level">Interested in any innovative software project with room for autonomy and independent decision making.</li>
                     </ul>
                 </div>
             </div>
