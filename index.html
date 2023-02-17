@@ -13,7 +13,7 @@
 <body>
     <header class="content-width">
         <div id="header-logo">
-            <img src="images/Logo vector.svg" width="150px" height="70px">
+            <img src="images/Logo vector.svg" width="140px" height="70px">
         </div>
         <div id="header-container">
             <div class="header-row">
@@ -37,10 +37,9 @@
     </section>
     <section id="features">
         <article id="vision">
-            <div class="article-width">
-                <div class="feature-num">1</div>
-                <h2>Value proposition</h2>
-                <div>
+            <div class="content-width feature">
+                <h2>vision</h2>
+                <div class="article-width">
                     <p>Developing a software application means building new ways for humans to interact productively with a computer.</p>
                     <p>Like a specialised language, an application enables two-ways communication with a counterparty — the computing machine — for a specific goal.</p>
                     <p>When the machine is driven by the user to perform a task, it relays back some notion of its inner workings.</p>
@@ -60,10 +59,9 @@
             </div>
         </article>
         <article id="tech">
-            <div class="article-width">
-                <div class="feature-num">2</div>
-                <h2>Proposed tech stack</h2>
-                <div>
+            <div class="content-width feature">
+                <h2>tech</h2>
+                <div class="article-width">
                     <h3>Data analysis and scientific computing, quantitative finance</h3>
                     <p>Python 3 + numpy, pandas, scikit-learn, pytorch, jupyter, streamlit</p>
                     <h3>High throughput</h3>
@@ -76,10 +74,9 @@
             </div>
         </article>
         <article id="projects">
-            <div class="article-width">
-                <div class="feature-num">3</div>
-                <h2>Past projects</h2>
-                <div>
+            <div class="content-width feature">
+                <h2>projects</h2>
+                <div class="article-width">
                     <h3>Risk analytics for equity trading</h3>
                     <p>Working as a freelance for a small team of portfolio managers at a leading hedge fund, I have developed a custom risk analytics system.</p>
                     <p>To speed-up the development and enable the PM team to maintain the application by themselves, I chose to write it in Python, leveraging Pandas and other scientific libraries.
@@ -87,35 +84,34 @@
                         which have been integrated in the company trader workbench by another developer.</p>
                     <p>After being successfully used by the original team, the application was selected to be distributed to all equity trading portfolio managers in the hedge fund.
                         I contributed to this effort in another assignment by adding support for more financial instruments and integrating an additional pricing library.</p>
-                    <p>Tech stack: Python, Pandas, Jupyter, Docker, Postgres, REST, Bloomberg API</p>
+                    <p class="detail">Tech stack: Python, Pandas, Jupyter, Docker, Postgres, REST, Bloomberg API</p>
                     <h3>Risk and pricing application for volatility trading</h3>
                     <p>Working for a medium-size equity hedge fund, I was responsible for the development of a new application for risk analytics.</p>
                     <p>I wrote the backend of the application in Scala, leveraging AWS Lambda to distribute the pricing tasks. The almost real time performance achieved in evaluating the whole portfolio,
                         which included hundreds of derivatives, gave the traders a trusted and convenient way to monitor their risk. Furthermore, the clean architecture of the application,
                         facilitated by the choice of the language, made it possible to refine the pricing models and add new instruments quickly when needed.</p>
-                    <p>Tech stack: Scala, AWS Lambda, Redis, Microsoft SQL, REST, Bloomberg API</p>
+                    <p class="detail">Tech stack: Scala, AWS Lambda, Redis, Microsoft SQL, REST, Bloomberg API</p>
                     <h3>Open-source framework for algo-trading</h3>
                     <p>During an interim period dedicated to experimenting first-hand with equity trading and quantitative market analysis, I have developed a trading application written in Java as an Eclipse IDE plugin.</p>
                     <p>The application, which included charting, a rudimentary backtesting engine, market data feeds, paper and live trading capability with a broker, was released as open source:
                         <a href="https://github.com/lsgro/quantcomponents">https://github.com/lsgro/quantcomponents</a></p>
-                    <p>Tech stack: Java, Eclipse IDE, SWT</p>
+                    <p class="detail">Tech stack: Java, Eclipse IDE, SWT</p>
                     <h3>Order management system for flow bond trading</h3>
                     <p>While employed by a software vendor specialised in trading applications for banks, I was responsible for re-engineering an order management application written in Java.</p>
                     <p>The new architecture I envisioned was based on a modular setup, implemented with Spring container, and was able to process multiple orders concurrently,
                         using thread executors and concurrent queues for the various states of the order.</p>
-                    <p>Tech stack: Java, Spring, Bloomberg API, Reuters API, FIX</p>
+                    <p class="detail">Tech stack: Java, Spring, Bloomberg API, Reuters API, FIX</p>
                     <h3>Web application for cruise booking</h3>
                     <p>Working for a medium-size cruise operator, I was given the job of building a B2B web application using the existing terminal-based booking system as backend.</p>
                     <p>As the leader of a team of two, I developed an adapter exposing an API to access the terminal-based backend using a screen-scraping technique written in Perl.</p>
-                    <p>Tech stack: PHP, Perl</p>
+                    <p class="detail">Tech stack: PHP, Perl</p>
                 </div>
             </div>
         </article>
         <article id="bio">
-            <div class="article-width">
-                <div class="feature-num">4</div>
-                <h2>My (tech) story</h2>
-                <div>
+            <div class="content-width feature">
+                <h2>bio</h2>
+                <div class="article-width">
                     <h3>Early 80s: Genoa, Italy</h3>
                     <p>Being part of the first generation of teen-agers with access to a personal computer, I took my first steps in geekiness tinkering with an 8-bit CPU,
                         16KB of RAM and an arcane set of machine code instructions, to be encoded to integers on paper.</p>
@@ -125,7 +121,7 @@
                         The technology stack I was using at the time was still small enough to fit in the head of a motivated student of electronic engineering:
                         x86 CPU, C language, Andy Tanenbaum's books, the Linux kernel source code, the UNIX shell, TCP/IP, HTTP, CGI and the early versions of Javascript.
                         I have spent innumerable hours in study rooms, libraries, at home tinkering with my 80386 PC, perusing source code and experimenting with compilers and disassemblers.</p>
-                    <p>Meanwhile I had landed my first full time job as a C/SQL programmer on UNIX./p>
+                    <p>Meanwhile I had landed my first full time job as a C/SQL programmer on UNIX.</p>
                     <h3>2000s: my career as a software developer</h3>
                     <p>Over the years I have managed to keep my priorities clear: avoiding as much as possible company politics, and rather concentrating on the craft of creating software and
                         continuing to learn: keeping up-to-date with new technologies, liaise with local experts, mentoring junior developers, meeting with users, designing applications,
@@ -149,34 +145,32 @@
             </div>
         </article>
         <article id="offer">
-            <div class="article-width">
-                <div class="feature-num">5</div>
-                <h2>What I can do for you</h2>
-                <div>
+            <div class="content-width feature">
+                <h2>offer</h2>
+                <div class="article-width">
                     <ul>
-                        <li>Consultancy and software architecture design.</li>
-                        <li>Startup co-founder/head of software engineering.</li>
-                        <li>Custom application development and integration in the fields:
+                        <li class="offer-category">Consultancy and software architecture design.</li>
+                        <li class="offer-category">Startup co-founder/head of software engineering.</li>
+                        <li class="offer-category">Custom application development and integration in the fields:
                             <ul>
-                                <li>risk analytics</li>
-                                <li>equity derivative pricing</li>
-                                <li>trading strategies</li>
-                                <li>market data.</li>
+                                <li class="detail">risk analytics</li>
+                                <li class="detail">equity derivative pricing</li>
+                                <li class="detail">trading strategies</li>
+                                <li class="detail">market data</li>
                             </ul>
                         </li>
-                        <li>Interested in any innovative software project with room for autonomy and independent decision making.</li>
+                        <li class="offer-category">Interested in any innovative software project with room for autonomy and independent decision making.</li>
                     </ul>
                 </div>
             </div>
         </article>
         <article id="contacts">
-            <div class="article-width">
-                <div class="feature-num">6</div>
-                <h2>How to reach me</h2>
-                <div>
+            <div class="content-width feature">
+                <h2>contacts</h2>
+                <div class="article-width">
                     <p>Email: <a href="info@luigisgro.com">info@luigisgro.com</a></p>
                     <p>Telegram: <a href="https://t.me/lsgro">@lsgro</a></p>
-                    <p>In person: we can meet at my office in Lugano, or at any location in Europe</p>
+                    <p>In person: we can meet at my office in Lugano, or at another location in Europe.</p>
                 </div>
             </div>
         </article>

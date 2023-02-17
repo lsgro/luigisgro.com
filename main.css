@@ -6,10 +6,12 @@ body {
     font-family: Roboto, Arial, sans-serif;
 }
 a:link, a:visited {
-    color: #2F2500;
+    transition: 0.7s ease;
+    color: #B0963B;
     text-decoration: none;
 }
 a:hover {
+    transition: 0.7s ease;
     color: #084887;
 }
 .color-blue {
@@ -36,9 +38,10 @@ a:hover {
 }
 .article-width {
     box-sizing: border-box;
-    max-width: 1170px;
-    margin: auto;
-    padding: 0 100px;
+    max-width: 770px;
+    padding: 0;
+    text-align: justify;
+    text-justify: inter-word;
 }
 header {
     box-sizing: border-box;
@@ -59,11 +62,28 @@ header {
     justify-content: space-between;
 }
 h1 {
-    font-size: 28px;
+    display: inline-block;
+    font-size: 32px;
     letter-spacing: 0.08em;
     font-weight: 500;
     margin: 0;
-    display: inline;
+}
+h2 {
+    display: inline-block;
+    margin: 0;
+    margin-right: 30px;
+    padding: 0;
+    width: 170px;
+    text-align: right;
+    font-weight: 500;
+    font-size: 32px;
+    letter-spacing: 0.08em;
+    color: #084887;
+}
+h3 {
+    margin: 9px 0 10px 0;
+    font-size: 22px;
+    font-weight: bold;
 }
 .header-row {
     width: 100%;
@@ -71,7 +91,7 @@ h1 {
     justify-content: space-between;
 }
 nav.header-row {
-    font-size: 26px;
+    font-size: 24px;
     letter-spacing: 0.08em;
     font-weight: normal;
 }
@@ -87,22 +107,41 @@ article {
     background-image: linear-gradient(to bottom, #E5E4DD, #E5E4DD, #E5E4DD, #D7D5C8);
     padding: 50px 0;
 }
-.feature-num {
-    display: inline-block;
-    font-family: "Playfail Display";
-    font-weight: 600;
-    font-size: 70px;
-    color: #084887;
-    margin: 0 40px 0 -70px;
+.feature {
+    display: flex;
+    flex-direction: row;
 }
-h2 {
-    display: inline-block;
+p {
     font-family: "Playfail Display";
-    font-weight: 500;
-    font-size: 40pt;
-    letter-spacing: 0.05em;
-    color: #716A5C;
-    margin: 0 0 50px 0;
+    font-size: 20px;
+    margin: 9px 0 20px 0;
+}
+.detail {
+    font-family: "Playfail Display";
+    font-size: 18px;
+    color: #2F2500;
+}
+ul {
+    margin: 9px 0 0 0;
+    padding: 0;
+}
+li {
+    margin: 0 0 20px 0;
+    font-family: "Playfail Display";
+    font-size: 20px;
+    list-style-type: none;
+    list-style-position: inside;
+}
+li.offer-category::before {
+    content: "\2022  ";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #084887; /* Change the color */
+    font-weight: bold; 
+}
+ul ul {
+    margin: 3px 0 0 20px;
+}
+li li {
+    margin: 0;
 }
 footer {
     color: #E5E4DD;
@@ -114,4 +153,13 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+a img {
+    transition: 0.7s ease;
+    opacity: 75%;
+}
+a img:hover {
+    transform: scale(1.1);
+    opacity: 100%;
+    transition: 0.7s ease;
 }
