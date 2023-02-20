@@ -131,11 +131,6 @@ li {
     list-style-type: none;
     list-style-position: inside;
 }
-li.top-level::before {
-    content: "\2022  ";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
-    color: #084887; /* Change the color */
-    font-weight: bold; 
-}
 ul ul {
     margin: 3px 0 0 20px;
 }
