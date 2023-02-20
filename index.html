@@ -21,8 +21,8 @@
                 <h1>software architect</h1>
             </div>
             <nav class="header-row">
-                <a href="#vision">vision</a>
                 <a href="#tech">tech</a>
+                <a href="#vision">vision</a>
                 <a href="#projects">projects</a>
                 <a href="#bio">bio</a>
                 <a href="#offer">offer</a>
@@ -36,6 +36,20 @@
         <div id="hero-filler-2"></div>
     </section>
     <section id="features">
+        <article id="tech">
+            <div class="content-width feature">
+                <h2>tech</h2>
+                <div class="article-width">
+                    <p>Technologies proposed for three broad fields of application:</p>
+                    <h3>Data analysis and scientific computing, quantitative finance</h3>
+                    <p>Python 3 + NumPy, pandas, scikit-learn, PyTorch, Jupyter, Streamlit</p>
+                    <h3>High throughput</h3>
+                    <p>Scala, Java 8+, AWS, Google Cloud, Spark</p>
+                    <h3>Low latency</h3>
+                    <p>Rust on metal, Rust on WASM</p>
+                </div>
+            </div>
+        </article>
         <article id="vision">
             <div class="content-width feature">
                 <h2>vision</h2>
@@ -58,25 +72,11 @@
                 </div>
             </div>
         </article>
-        <article id="tech">
-            <div class="content-width feature">
-                <h2>tech</h2>
-                <div class="article-width">
-                    <h3>Data analysis and scientific computing, quantitative finance</h3>
-                    <p>Python 3 + numpy, pandas, scikit-learn, pytorch, jupyter, streamlit</p>
-                    <h3>High throughput</h3>
-                    <p>Scala, Java 8+, AWS, Google Cloud, Spark</p>
-                    <h3>Low latency</h3>
-                    <p>Rust on metal, Rust on WASM</p>
-                    <h3>Browser</h3>
-                    <p>Javascript/Typescript, React, Svelte</p>
-                </div>
-            </div>
-        </article>
         <article id="projects">
             <div class="content-width feature">
                 <h2>projects</h2>
                 <div class="article-width">
+                    <p>Sample of past projects where I contributed substantially to design and implementation:</p>
                     <ul>
                         <h3>Risk analytics for equity trading</h3>
                         <p>Python, Pandas, Jupyter, Docker, Postgres, REST, Bloomberg API</p>
@@ -96,24 +96,28 @@
             <div class="content-width feature">
                 <h2>bio</h2>
                 <div class="article-width">
-                    <p>Growing up, like most children of my generation, obsessed with science fiction and electronics,
-                        my dreams came true when, in 1982, my dad bough me a Commodore VIC-20 home computer.</p>
-                    <p>It sounds silly today, but seeing for the first time the cursor of the BASIC
-                    interpreter blinking on the TV screen gave me a joy I will never forget.
-                    Exploration of the world contained in that bulky plastic keyboard became my main intellectual endeavour as a child.</p>
-                    <p>Later, while I was studying to become an Electronic Engineer at the University of Genoa, I was introduced to Linux by a research assistant in the bioelectronics lab.</p>
-                    <p>From that moment my life took a turn: I was so intrigued by open source — the ability for anybody to read and compile everything they used, down to the operating system —
-                        that I started spending endless hours studying UNIX, browsing Linux source code, and experimenting with C and assembly to build my own toy operating system.</p>
-                    <p>Immediately after graduating, I landed my first job as a C programmer, and since then I have been developing software for most of my career.</p> 
-                    <p>After C, Java became my language of choice, and years later Scala. I was following the main trends in backend programming: the big push for OOP in the nineties,
+                    <p>Like most of those born in the 1970s, I was obsessed with science fiction and electronics: I will never forget the joy, after I got my first home computer in 1982, when I saw
+                    for the first time the cursor of the BASIC interpreter blinking on my TV screen.</p>
+                    <p>For us, growing up in an analogical world, the sudden irruption of digital programmable things in our homes was revolutionary: 
+                        learning to program in BASIC and machine code was as exciting as if I were allowed to an orbital trip on the Space Shuttle.</p>
+                    <p>Later, while I was studying Electronic Engineering at the University of Genoa, I was introduced to Linux by a research assistant in the bioelectronics lab.</p>
+                    <p>The World Wide Web was gaining popularity, and with it Open Source — the ability for anybody to read and compile the programs they used, down to the operating system.</p>
+                    <p>With access to the high-speed network of the faculty, having time to study UNIX, browsing Linux source code, learning C and x86 assembly, this is when I knew what I wanted to do after university.</p>
+                    <p>Immediately after graduating, I landed my first job as a C programmer, and since then I have been developing software for most of my career.</p>
+                    <p>After C, Java became my default programming language, and years later Scala. I was following the main trends in backend programming: the big push for OOP in the nineties,
                         then the popularisation of functional languages thanks to Scala, Clojure and F#.</p>
-                    <p>I left Italy in 2010, to work in a financial institution in London, while at the same time studying at Paul Wilmott's quantitative finance school in the evenings.</p>
+                    <p>The typical path in a career was spending few years working hands on, then being promoted to middle management, to oversee the work of others and becoming progressively 
+                        entangled in governance issues and power struggles. But for me the key to happiness at work was writing code and stay up-to-date with new technology.</p>
+                    <p>The finance industry was becoming one of the biggest drivers of software innovation, providing increasing opportunities for experienced technical staff.
+                        I moved to London in 2010, to work in a financial institution, while at the same time studying at Paul Wilmott's quantitative finance school in the evenings.</p>
                     <p>It wasn't always easy to reconcile working abroad with my family life, but eventually my wife and I managed to find an optimal compromise by both of us relocating to Zurich, Switzerland.</p>
-                    <p>Here I had the opportunity to experience life in a hedge fund's front office: I started building quantitative tools for risk management and trading algorithms in Scala and Python,
+                    <p>Looking for ways to keep working on interesting technical stuff, while achieving a higher degree of autonomy than what is normally allowed in traditional corporations, I started working
+                        in the hedge fund industry, where I started building quantitative tools for risk management and trading algorithms in Scala and Python,
                         becoming more involved in pricing models and scientific computing.</p>
-                    <p>After several laborious years and two successful green-field projects I realised that, to continue learning and being creative, I should take some time off,
-                        away from all the necessary schedules and routine activities of corporate work.</p>
-                    <p>While I am spending time experimenting with machine learning and algo-trading, doing sport and travelling, I am looking forward to the next exciting project.</p>
+                    <p>A small developer team, sharing office with traders, is a congenial working environment for me. I am happy to delve in other disciplines deep enough to
+                        find an angle from which users and computational power align in the most organic and effective way.</p>
+                    <p>After several years of experience in this field and two successful green-field projects, I realised that I should take some time off,
+                        away from all the necessary schedules and routine activities of company work, to let the latest experiences sediment, and get ready to start a new productive phase.</p>
                 </div>
             </div>
         </article>
