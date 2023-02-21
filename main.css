@@ -167,6 +167,95 @@ a img:hover {
 .admin-stuff h3 {
     margin-top: 30px;
 }
+.tech-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 30px 0 50px 0;
+}
+.tech-list:last-child {
+    margin: 30px 0 0 0;
+}
+.tech-list li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 140px;
+    height: 75px;
+}
+.tech-list img {
+    opacity: 100%;
+}
+#python-logo {
+    width: 100px;
+    position: relative;
+    top: 3px;
+}
+#numpy-logo {
+    width: 120px;
+    position: relative;
+    top: 0px;
+}
+#pandas-logo {
+    width: 113px;
+    position: relative;
+    top: 3px;
+}
+#scikit-learn-logo {
+    width: 90px;
+    position: relative;
+    top: 0px;
+}
+#pytorch-logo {
+    width: 95px;
+    position: relative;
+    top: 5px;
+}
+#jupyter-logo {
+    width: 60px;
+    position: relative;
+    top: 10px;
+}
+#streamlit-logo {
+    width: 80px;
+    position: relative;
+    top: 0px;
+}
+#scala-logo {
+    width: 80px;
+    position: relative;
+    top: 7px;
+}
+#kafka-logo {
+    width: 80px;
+    position: relative;
+    top: 7px;
+}
+#spark-logo {
+    width: 60px;
+    position: relative;
+    top: 0px;
+}
+#aws-logo {
+    width: 50px;
+    position: relative;
+    top: 12px;
+}
+#google-cloud-logo {
+    width: 140px;
+    position: relative;
+    top: 7px;
+}
+#rust-logo {
+    width: 60px;
+    position: relative;
+    top: 0px;
+}
+#wasm-logo {
+    width: 50px;
+    position: relative;
+    top: 0px;
+}
 @media (min-width: 875px) {
     header {
         flex-direction: row;
