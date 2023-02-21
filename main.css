@@ -256,6 +256,15 @@ a img:hover {
     position: relative;
     top: 0px;
 }
+#copyright {
+    margin: 0;
+    padding: 3px;
+    font-size: 12px;
+    background-color: #2F2500;
+    color: #D7D5C8;
+    font-family: Roboto, Arial, sans-serif;
+    text-align: center;
+}
 @media (min-width: 875px) {
     header {
         flex-direction: row;
